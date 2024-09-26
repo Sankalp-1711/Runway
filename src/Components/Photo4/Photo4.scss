@@ -1,0 +1,25 @@
+
+.photo-gallery2-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0; // Remove padding
+  
+    .photo-gallery2{
+      width: 100%;
+    //   max-width: 1200px;
+      padding: 0; // Remove padding
+  
+      .gallery-img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        border-radius: 0; // Remove border-radius if you want the image to align perfectly
+        box-shadow: none; // Remove shadow if you want no space
+        // margin: -1; // Ensure no margin
+        margin: -5px 0px 0px 0px;
+      }
+    }
+  }
+  
